@@ -1,0 +1,75 @@
+.body{
+    font-family: \'Trebuchet MS\', Trebuchet, Arial, sans-serif;
+    background-color: darkblue;
+}
+.onehead{
+    background-color:#555a61;
+    height: 140px;
+    color:  #e77e7f;
+    text-align: center;
+    position: absolute;
+    width:1510px;
+    margin:5px;
+   }
+.twohead{
+    font-weight:bolder;
+    font-size: 30px;
+}
+.threehead{
+    font-size: 25px
+}
+ul{
+    position: absolute;
+    top: 145px;
+    line-height: 70px;
+    list-style-type: none;
+    width: 1510px;
+    height: 600px;
+    background-color: rgb(59,63,69);
+    box-sizing: border-box;
+    text-align: center;
+    margin: 5px;
+    font-weight: 700;
+    color: white;
+    text-align: left;
+   }
+.one{
+    background-color: rgb(136,131,158);
+}
+.two{
+    background-color:rgb(122,117,147);
+}
+li{
+    position: relative;
+    top: 25px;
+    margin-right: 400px;
+    margin-left: 350px;
+    font-size: 25px;
+    transition: all .1s ease-in;
+    transition: 2s;
+}
+i{
+    color: rgb(190, 188, 185);
+}
+li :hover{
+    background: radial-gradient(ellipse at bottom, #613475 0%,#9e3c3c 55%);
+}
+:checked + span{
+    text-decoration: line-through gray;
+}
+.three{
+    text-align: center;
+    line-height: 80px;
+    background-color: rgb(74,79,86);
+    box-sizing: border-box;
+    height: 70px;
+    width: 720px;
+    top: 60px;
+    color: rgb(228,113,109);
+}
+A {
+    color: rgb(228,113,109); 
+   }
+   A:visited {
+    color:rgb(228,113,109);
+   }
